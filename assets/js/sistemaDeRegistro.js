@@ -37,7 +37,7 @@ function registrarPaciente(){
     mostrarInfoPaciente(paciente); // Invocacion de otra funcion para mostrar la info del paciente
 
     // 2. Muestro el Mensaje de confirmacion (textContent)
-    mensajeConfirmacion.textContent = "<p>Paciente registrado con exito!</p>";
+    mensajeConfirmacion.textContent = "Paciente registrado con exito";
 
     // 3. Genera la tarjeta del paciente
     generarTarjetaPaciente(paciente); // Invocacion de una funcion para generar tarjetas
